@@ -6,65 +6,99 @@
 box-sizing: border-box;
 margin: 0;
 }
+
 .container{
-    display: flex;
-    
+display: flex;    
 }
+
 .header{
-    display: flex;
-    gap: 20px;
+display: flex;
+gap: 20px;
 }
+
 .account{
-    font-family: 'Poppins';
+font-family: 'Poppins';
 }
+
 .parahraph{
-    font-family: 'Poppins';
-    color: #949494;   
+font-family: 'Poppins';
+color: #949494;   
+
 }
 .formm{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;  
+display: flex;
+flex-direction: column;
+gap: 20px;  
 }
+
 .name{
-    font-family: 'poppins';
+font-family: 'poppins';
+font-size: 20px;
 }
+
 .email{
-    font-family: 'poppins';
+font-family: 'poppins';
+font-size: 20px;
 }
+
 .password{
-    font-family: 'poppins';
+font-family: 'poppins';
+font-size: 20px;
 }
-.name1{
-    font-family: 'poppins';
-}
+
 .email1{
-    font-family: 'poppins';
-    display: flex;
+font-family: 'poppins';
+display: flex;
 }
+
 .password1{
-    font-family: 'poppins';
+font-family: 'poppins';
 }
+
 .name2{
-    width: 432.171px;
+width: 432.171px;
 height: 60px;
-font-family: 'poppins';
+color: #949494;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 166.5%; /* 29.97px */
+opacity: 0.7;
 }
+
 .email2{
-    width: 432.171px;
+width: 432.171px;
 height: 60px;
-font-family: 'poppins';
+color: #949494;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 166.5%; /* 29.97px */
+opacity: 0.7;
 }
+
 .password2{
-    width: 432.171px;
+width: 432.171px;
 height: 60px;
-font-family: 'poppins';
+color: #949494;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: 166.5%; /* 29.97px */
+opacity: 0.7;
 }
+
 .form1{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+display: flex;
+flex-direction: column;
+gap: 50px;
+position: relative;
+
 }
+
 .buttondi2{
 display: flex;
 width: 433px;
@@ -76,6 +110,7 @@ border-radius: 8px;
 border: 1px solid #949494;
 background: #FFF;
 }
+
 .googletxt{
     color: #4443FF;
 font-family: 'Poppins';
@@ -85,21 +120,24 @@ font-weight: 600;
 line-height: 166.5%; /* 33.3px */
 text-transform: capitalize;
 }
+
 .buttondiv{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+display: flex;
+flex-direction: column;
+gap: 20px;
 }
+
 .accounttxt{
-    color: #FFF;
+color: #FFF;
 font-family: 'Poppins';
 font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: 166.5%; /* 33.3px */
 }
+
 .button{
-    color: #FFF;
+color: #FFF;
 font-family: Poppins;
 font-size: 20px;
 font-style: normal;
@@ -107,7 +145,8 @@ font-weight: 600;
 line-height: 166.5%; /* 33.3px */
 border-radius: 8px;
 background: #4443FF;
-
+display: flex;
+letter-spacing: 1px;
 /* 1 */
 box-shadow: 9px 9px 10px 0px rgba(114, 113, 255, 0.25);
 height: 70px;
@@ -117,16 +156,18 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 }
+
 .paragraph2{
-    color: #949494;
+color: #949494;
 font-family: Poppins;
 font-size: 18px;
 font-style: normal;
 font-weight: 300;
 line-height: 166.5%; /* 29.97px */
 }
+
 .login{
-    color: #7271FF;
+color: #7271FF;
 font-family: Poppins;
 font-size: 18px;
 font-style: normal;
@@ -134,14 +175,39 @@ font-weight: 500;
 line-height: 166.5%;
 text-decoration-line: underline;
 }
+
 .paragraphdiv{
+display: flex;
+justify-content: center;
+}
+
+.header2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 300px;
+gap: 10px;
+}
+.span1{
+    color: #EB3800;
+}
+.span2{
+    color: #EB3800;
+}
+.iconbox{
     display: flex;
     justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
-.header2{
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   margin-left: 300px;
-   gap: 10px;
+.icon{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+   top: 330px;
+   left: 390px;
+ 
+}
+.pasdiv{
+    border: 1px;
 }
